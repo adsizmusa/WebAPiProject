@@ -1,0 +1,98 @@
+
+
+@page
+
+@using BussinessDTO.DTOs;
+@{ 
+    var member = new MemberDTO();
+}
+<h2 class="content-block">Login</h2>
+
+
+<div class="content-block dx-card responsive-paddings">
+
+
+
+    <div class="dx-fieldset">
+        <div class="dx-field">
+            <div class="dx-field-label">Email Adress</div>
+            <div class="dx-field-value">
+                @(Html.DevExtreme().TextBox()
+                    .ID("email")
+                    .Name("Email")
+                    .Mode(TextBoxMode.Email)
+                    .Value(""))
+            </div>
+        </div>
+        <div class="dx-field">
+            <div class="dx-field-label">Password</div>
+            <div class="dx-field-value">
+                @(Html.DevExtreme().TextBox()
+                    .ID("password")
+                    .Name("Password")
+                    .Mode(TextBoxMode.Password)
+                    .Value(""))
+            </div>
+        </div>
+        <div class="dx-field">
+            <div class="dx-field-label"></div>
+            <div class="dx-field-value">
+                @(Html.DevExtreme().Button()
+                        .Text("Login")
+                        .Type(ButtonType.Success)
+                        .StylingMode(ButtonStylingMode.Contained)
+                        .Width(120)
+                        .OnClick("notify")
+                    )
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+    function getFormInstance() {
+      
+    }
+    function notify(e) {
+
+        var email = $("#email")
+            .dxTextBox("instance")
+            .option("value");
+        var password = $("#password")
+            .dxTextBox("instance")
+            .option("value");
+
+
+
+
+        $.post("/Login/Login", { "Email": email, "Password": password }, function (result) {
+
+            if (result != null) {
+                if (result.IsSuccess) {
+                    document.cookie = "token=" + result.Token + "; expires=" + result.ExpiresOn;
+                    document.cookie = "memberId=" + result.MemberId + "; expires=" + result.ExpiresOn;
+
+                    window.location.href = "/";
+               
+                }
+
+               
+            }
+            else {
+                DevExpress.ui.notify("We have not access with your information. Plase check your information");
+            }
+
+        });
+    }
+</script>

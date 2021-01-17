@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gIsAErJ0gkGiCrBtQPko61AMg4ULP3sIP+nSdJaJUqsetaAE9cZkEFCo7RiAfoHHQW8EruhdukVr0sTKuOVhLw==",
+  "success": true,
+  "projectFilePath": "E:\\My interview\\Aen Software\\Projects\\AenWebProject\\BussinessDTO\\BussinessDTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

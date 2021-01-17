@@ -1,0 +1,16 @@
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\bin\Debug\netcoreapp3.1\Repositories.deps.json
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\bin\Debug\netcoreapp3.1\Repositories.dll
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\bin\Debug\netcoreapp3.1\Repositories.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\bin\Debug\netcoreapp3.1\BussinesLayer.dll
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\bin\Debug\netcoreapp3.1\BussinessCommon.dll
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\bin\Debug\netcoreapp3.1\BussinessDTO.dll
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\bin\Debug\netcoreapp3.1\BussinesLayer.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\bin\Debug\netcoreapp3.1\BussinessDTO.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\bin\Debug\netcoreapp3.1\BussinessCommon.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\obj\Debug\netcoreapp3.1\Repositories.csprojAssemblyReference.cache
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfoInputs.cache
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfo.cs
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CoreCompileInputs.cache
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CopyComplete
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\obj\Debug\netcoreapp3.1\Repositories.dll
+E:\My interview\Aen Software\Projects\AenWebProject\Repositories\obj\Debug\netcoreapp3.1\Repositories.pdb

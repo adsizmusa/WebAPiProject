@@ -1,0 +1,14 @@
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\bin\Debug\netcoreapp3.1\UIService.deps.json
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\bin\Debug\netcoreapp3.1\UIService.dll
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\bin\Debug\netcoreapp3.1\UIService.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\bin\Debug\netcoreapp3.1\BussinessDTO.dll
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\bin\Debug\netcoreapp3.1\RestAPI.dll
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\bin\Debug\netcoreapp3.1\RestAPI.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\bin\Debug\netcoreapp3.1\BussinessDTO.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\obj\Debug\netcoreapp3.1\UIService.csprojAssemblyReference.cache
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\obj\Debug\netcoreapp3.1\UIService.AssemblyInfoInputs.cache
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\obj\Debug\netcoreapp3.1\UIService.AssemblyInfo.cs
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\obj\Debug\netcoreapp3.1\UIService.csproj.CoreCompileInputs.cache
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\obj\Debug\netcoreapp3.1\UIService.csproj.CopyComplete
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\obj\Debug\netcoreapp3.1\UIService.dll
+E:\My interview\Aen Software\Projects\AenWebProject\UIService\obj\Debug\netcoreapp3.1\UIService.pdb

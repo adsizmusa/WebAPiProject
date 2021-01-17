@@ -1,0 +1,8 @@
+E:\My interview\Aen Software\Projects\AenWebProject\BussinessCommon\bin\Debug\netcoreapp3.1\BussinessCommon.deps.json
+E:\My interview\Aen Software\Projects\AenWebProject\BussinessCommon\bin\Debug\netcoreapp3.1\BussinessCommon.dll
+E:\My interview\Aen Software\Projects\AenWebProject\BussinessCommon\bin\Debug\netcoreapp3.1\BussinessCommon.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\BussinessCommon\obj\Debug\netcoreapp3.1\BussinessCommon.AssemblyInfoInputs.cache
+E:\My interview\Aen Software\Projects\AenWebProject\BussinessCommon\obj\Debug\netcoreapp3.1\BussinessCommon.AssemblyInfo.cs
+E:\My interview\Aen Software\Projects\AenWebProject\BussinessCommon\obj\Debug\netcoreapp3.1\BussinessCommon.csproj.CoreCompileInputs.cache
+E:\My interview\Aen Software\Projects\AenWebProject\BussinessCommon\obj\Debug\netcoreapp3.1\BussinessCommon.dll
+E:\My interview\Aen Software\Projects\AenWebProject\BussinessCommon\obj\Debug\netcoreapp3.1\BussinessCommon.pdb

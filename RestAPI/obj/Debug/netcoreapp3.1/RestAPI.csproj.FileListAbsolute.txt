@@ -1,0 +1,12 @@
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\bin\Debug\netcoreapp3.1\RestAPI.deps.json
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\bin\Debug\netcoreapp3.1\RestAPI.dll
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\bin\Debug\netcoreapp3.1\RestAPI.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\bin\Debug\netcoreapp3.1\BussinessDTO.dll
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\bin\Debug\netcoreapp3.1\BussinessDTO.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\obj\Debug\netcoreapp3.1\RestAPI.csprojAssemblyReference.cache
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\obj\Debug\netcoreapp3.1\RestAPI.AssemblyInfoInputs.cache
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\obj\Debug\netcoreapp3.1\RestAPI.AssemblyInfo.cs
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\obj\Debug\netcoreapp3.1\RestAPI.csproj.CoreCompileInputs.cache
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\obj\Debug\netcoreapp3.1\RestAPI.csproj.CopyComplete
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\obj\Debug\netcoreapp3.1\RestAPI.dll
+E:\My interview\Aen Software\Projects\AenWebProject\RestAPI\obj\Debug\netcoreapp3.1\RestAPI.pdb

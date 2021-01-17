@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "TrHsCL8LIYlA+BPz1vw8DllG3LgJ2fLwc1HKt3zTBDeEyLFrodLwcwNhN1rVhqyrXukfyqkrgROS0OFdTE7aHg==",
+  "success": true,
+  "projectFilePath": "E:\\My interview\\Aen Software\\Projects\\AenWebProject\\UIClient\\UIClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\cldrjs\\0.4.4\\cldrjs.0.4.4.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\devextreme.aspnet.data\\2.8.0\\devextreme.aspnet.data.2.8.0.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\devextreme.web\\20.2.4\\devextreme.web.20.2.4.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\jquery-globalize\\1.1.1\\jquery-globalize.1.1.1.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\jszip\\3.1.2\\jszip.3.1.2.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\microsoft.csharp\\4.4.0\\microsoft.csharp.4.4.0.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

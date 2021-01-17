@@ -1,0 +1,12 @@
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\bin\Debug\netcoreapp3.1\BussinesLayer.deps.json
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\bin\Debug\netcoreapp3.1\BussinesLayer.dll
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\bin\Debug\netcoreapp3.1\BussinesLayer.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\bin\Debug\netcoreapp3.1\BussinessCommon.dll
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\bin\Debug\netcoreapp3.1\BussinessCommon.pdb
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\obj\Debug\netcoreapp3.1\BussinesLayer.csprojAssemblyReference.cache
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\obj\Debug\netcoreapp3.1\BussinesLayer.AssemblyInfoInputs.cache
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\obj\Debug\netcoreapp3.1\BussinesLayer.AssemblyInfo.cs
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\obj\Debug\netcoreapp3.1\BussinesLayer.csproj.CoreCompileInputs.cache
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\obj\Debug\netcoreapp3.1\BussinesLayer.csproj.CopyComplete
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\obj\Debug\netcoreapp3.1\BussinesLayer.dll
+E:\My interview\Aen Software\Projects\AenWebProject\BussinesLayer\obj\Debug\netcoreapp3.1\BussinesLayer.pdb

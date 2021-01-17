@@ -1,0 +1,184 @@
+@page
+
+@using BussinessDTO.DTOs;
+@using Newtonsoft.Json;
+
+@{
+    var order = new OrderDTO();
+
+}
+<h2 class="content-block">Home</h2>
+
+
+@(Html.DevExtreme().Popup()
+         .ID("order-popup")
+         .OnShown("loadGrid")
+        .ShowTitle(true)
+
+   .FullScreen(true)
+    .Title("Add Order")
+    .ContentTemplate(new TemplateName("popup-template"))
+)
+
+
+@using (Html.DevExtreme().NamedTemplate("popup-template"))
+{
+    <p style="float:right">
+        @(Html.DevExtreme().Button()
+            .Text("Add Order")
+                   .Type(ButtonType.Success)
+                        .StylingMode(ButtonStylingMode.Contained)
+            .OnClick("add_order")
+        )
+    </p>
+    @(Html.DevExtreme().ScrollView()
+        .Width("100%")
+        .Height("100%")
+        .Content(@<text>
+             @(Html.DevExtreme().Form<OrderDTO>()
+                    .ID("orderForm")
+                    .ColCount(4)
+                    .FormData(order)
+                    .LabelLocation(FormLabelLocation.Top)
+                    .ReadOnly(false)
+                    .ShowColonAfterLabel(true)
+                          .Items(items =>
+                          {
+                              items.AddSimpleFor(s => s.FinalAmount);
+                              items.AddSimpleFor(s => s.Amount);
+                              items.AddSimpleFor(s => s.GeneralAmount);
+                              items.AddSimpleFor(s => s.OrderStatus);
+                              items.AddSimpleFor(s => s.PaymentStatus);
+                              items.AddSimpleFor(s => s.ShippingAmount);
+                              items.AddSimpleFor(s => s.Status);
+                              items.AddSimpleFor(s => s.TaxAmount);
+
+
+                          })
+        )
+
+@(Html.DevExtreme().DataGrid<OrderItemDTO>()
+            .ID("orderItemGrid")
+    .ElementAttr(new { @class = "dx-card wide-card" })
+    .DataSource(order.OrderItems)
+    .ShowBorders(false)
+
+    .FocusedRowIndex(0)
+    .ColumnAutoWidth(true)
+    
+    .ColumnHidingEnabled(true)
+    .Columns(columns => {
+        columns.AddFor(m => m.Price);
+        columns.AddFor(m => m.Quantity);
+        columns.AddFor(m => m.Discount);
+        columns.AddFor(m => m.Tax);
+        columns.AddFor(m => m.Status);
+    })
+
+
+)
+
+
+<div style="height:50px">
+
+</div>
+        </text>)
+    )
+
+
+}
+
+@(Html.DevExtreme().Button()
+                    .ElementAttr("class", "button-info pull-right")
+                    .Text("Add Order")
+                    .OnClick(@<text>
+                        function showInfo(data) {
+                            var popup = $("#order-popup").dxPopup("instance");
+
+                            popup.show();
+                        }
+                    </text>)
+                )
+@(Html.DevExtreme().DataGrid<OrderDTO>()
+        .ID("mainDataGrid")
+    .ElementAttr(new { @class = "dx-card wide-card" })
+    .DataSource(d => d.Mvc().Controller("Home").LoadAction("GetOrders").Key("Id"))
+    .ShowBorders(false)
+    .FilterRow(f => f.Visible(true))
+    .FocusedRowEnabled(true)
+    .FocusedRowIndex(0)
+    .ColumnAutoWidth(true)
+
+    .ColumnHidingEnabled(true)
+    .Columns(columns => {
+        columns.AddFor(m => m.Amount);
+        columns.AddFor(m => m.FinalAmount);
+        columns.AddFor(m => m.GeneralAmount);
+        columns.AddFor(m => m.OrderStatus);
+        columns.AddFor(m => m.TaxAmount);
+    })
+    .Paging(p => p.PageSize(10))
+    .Pager(p => p
+        .ShowPageSizeSelector(true)
+        .AllowedPageSizes(new[] { 5, 10, 20 })
+        .ShowInfo(true)
+    )
+)
+<script type="text/javascript">
+    function add_order(e) {
+
+    
+
+        var order = $("#orderForm").dxForm("instance").option('formData');
+        var orderItem = $("#orderItemGrid").dxDataGrid("instance").getDataSource().items();
+        order.OrderItems = orderItem;
+
+        $.post("/Home/SaveOrder", order, function (result) {
+
+            if (result.IsSuccess) {
+
+                var popup = $("#order-popup").dxPopup("instance");
+
+                popup.hide();
+
+                $("#mainDataGrid").dxDataGrid("getDataSource").reload();
+
+            }
+            else {
+                DevExpress.ui.notify(result.Messegges);
+            }
+
+        });
+     
+    }
+
+    function loadGrid() {
+        $("#orderItemGrid").dxDataGrid({
+            // ...
+            editing: {
+                allowUpdating: true,
+                allowAdding: true,
+                allowDeleting: true,
+                mode: 'row' // 'batch' | 'cell' | 'form' | 'popup'
+            },
+
+        });
+    }
+    function add_order_item(e) {
+        loadGrid();
+    }
+
+    $(function () {
+
+        var token = getCookie("token");
+        if (token == null) {
+            window.location.href ="/Login";
+        }
+    });
+
+    function getCookie(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) return parts.pop().split(';').shift();
+    }
+</script>

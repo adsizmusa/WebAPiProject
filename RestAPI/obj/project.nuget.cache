@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "KekKky99FibaLcoSKRnhBOzHrcoT/JyRX1fdMwNWBBNzGC7klNVp66yUkpqMJlAUEn1QlKunW6GZogdv9Yme+Q==",
+  "success": true,
+  "projectFilePath": "E:\\My interview\\Aen Software\\Projects\\AenWebProject\\RestAPI\\RestAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\Musa ADSIZ\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
